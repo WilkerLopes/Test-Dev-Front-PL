@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color);
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: unset;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  width: calc(100% - 148px);
+  max-width: 1400px;
+}
+
+ion-icon {
+  font-size: 16px !important;
+}
+
+.center {
+  text-align: center;
+}
+.no-margin {
+  margin: 0 !important;
+}
+
+/* Screans */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 32px) !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}

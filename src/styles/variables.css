@@ -1,0 +1,77 @@
+:root {
+  --color-primary: #244677;
+  --color-primary-rgb: 36, 70, 119;
+  --color-primary-contrast: #ffffff;
+  --color-primary-shade: #1c375c;
+  --color-primary-tint: #3a5985;
+
+  --color-secondary: #12295b;
+  --color-secondary-rgb: 18, 41, 91;
+  --color-secondary-contrast: #ffffff;
+  --color-secondary-shade: #0e2046;
+  --color-secondary-tint: #2a3e6b;
+
+  --color-tertiary: #4263eb;
+  --color-tertiary-rgb: 66, 99, 235;
+  --color-tertiary-contrast: #ffffff;
+  --color-tertiary-shade: #334db6;
+  --color-tertiary-tint: #5573ed;
+
+  --color-mensage: #00b1ff;
+  --color-mensage-rgb: 0, 177, 255;
+  --color-mensage-contrast: #ffffff;
+
+  --color-success: #2dd36f;
+  --color-success-rgb: 45, 211, 111;
+  --color-success-contrast: #ffffff;
+
+  --color-warning: #ffc409;
+  --color-warning-rgb: 255, 196, 9;
+  --color-warning-contrast: #000000;
+
+  --color-danger: #eb445a;
+  --color-danger-rgb: 235, 68, 90;
+  --color-danger-contrast: #ffffff;
+
+  --color-dark: #222428;
+  --color-dark-rgb: 34, 36, 40;
+  --color-dark-contrast: #ffffff;
+
+  --color-medium: #92949c;
+  --color-medium-rgb: 146, 148, 156;
+  --color-medium-contrast: #ffffff;
+
+  --color-light: #f4f5f8;
+  --color-light-rgb: 244, 245, 248;
+  --color-light-contrast: #000000;
+
+  --color-step-0: #f1f3f5;
+  --color-step-50: #eef0f4;
+  --color-step-100: #e6e7ec;
+  --color-step-150: #dddfe3;
+  --color-step-200: #d4d6db;
+  --color-step-250: #ccced3;
+  --color-step-300: #c3c6ca;
+  --color-step-350: #babdc2;
+  --color-step-400: #b1b5ba;
+  --color-step-450: #adb5bd;
+  --color-step-500: #a0a4aa;
+  --color-step-550: #979ca1;
+  --color-step-600: #8f9399;
+  --color-step-650: #868b91;
+  --color-step-700: #7d8289;
+  --color-step-750: #757a80;
+  --color-step-800: #6c7278;
+  --color-step-850: #636970;
+  --color-step-900: #5a6168;
+  --color-step-950: #52585f;
+
+  --background-color: #f7f8fc;
+  --background-card-color: #ffffff;
+  --background-input-color: var(--color-step-0);
+
+  --text-color: #495057;
+
+  /* Medidas */
+  --border-radius: 8px;
+}
